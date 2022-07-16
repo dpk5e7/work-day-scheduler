@@ -48,12 +48,8 @@ The use of a modern web browser.
 
 ### Screenshots
 
-TODO: Update Screenshots
-
 ![Screenshot 1](./assets/Screenshots/screenshot1.jpg)
 ![Screenshot 2](./assets/Screenshots/screenshot2.jpg)
-![Screenshot 3](./assets/Screenshots/screenshot3.jpg)
-![Screenshot 4](./assets/Screenshots/screenshot4.jpg)
 
 ## Authors
 
