@@ -44,7 +44,7 @@ The use of a modern web browser.
 
 ### URL
 
-- [https://dpk5e7.github.io/coding-quiz/](https://dpk5e7.github.io/work-day-scheduler/)
+- [https://dpk5e7.github.io/work-day-scheduler/](https://dpk5e7.github.io/work-day-scheduler/)
 
 ### Screenshots
 
