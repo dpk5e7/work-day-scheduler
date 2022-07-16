@@ -128,7 +128,7 @@ $(document).ready(function () {
           <use xlink:href="#check-circle-fill" />
         </svg>
         <div>
-          Appointment saved to localStorage at ${hourToSave}!
+          ${strHourText} saved to localStorage at ${hourToSave}!
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
       </div>
@@ -136,7 +136,7 @@ $(document).ready(function () {
   });
 
   function loadScheduleData() {
-    if (localStorage.length > 0) {
+    if (localStorage.getItem("scheduleData") != null) {
       schedulerEventData = JSON.parse(localStorage.getItem("scheduleData"));
     }
   }
