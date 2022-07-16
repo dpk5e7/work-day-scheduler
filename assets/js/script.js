@@ -31,6 +31,10 @@ $(document).ready(function () {
   function getCurrentHour() {
     let currentHour = "11 AM";
     currentHour = moment().format("hh a");
+    // Remove leading zero
+    if (currentHour.charAt(0) == "0") {
+      currentHour = currentHour.substring(1);
+    }
     currentHour = currentHour.toUpperCase();
     return currentHour;
   }
